@@ -311,14 +311,15 @@ nav {
   text-transform: uppercase;
   letter-spacing: -0.05em;
   line-height: 1;
-  z-index: 10;
+  z-index: 20;
   display: flex;
   gap: 15px;
   user-select: none;
+  color: white;
 }
 
 .hero-text-bottom {
-  top: calc(50% + 380px);
+  top: calc(50% + 280px);
 }
 
 .hero-horizontal-text span {
@@ -1124,7 +1125,7 @@ html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""
   }
 
   .hero-text-bottom {
-    top: calc(50% + 200px);
+    top: calc(50% + 140px);
   }
 
   section {
