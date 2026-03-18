@@ -14,7 +14,7 @@
 
 ## <span style="color: #FF1493;">Overview</span>
 
-The Meena Dev Portfolio is a modern, interactive, and visually striking personal developer portfolio designed to showcase MERN stack expertise. Built on top of **Next.js 16** and **React 19**, it incorporates custom WebGL-style cursor tracking, parallax scrolling, and viewport-triggered animations. It serves as a centralized hub for archiving enterprise-grade applications, technical articles, and professional history.
+The <span style="color: #FF1493;">**Meena Dev**</span> Portfolio is a modern, interactive, and visually striking personal developer portfolio designed to showcase MERN stack expertise. Built on top of **Next.js 16** and **React 19**, it incorporates custom WebGL-style cursor tracking, parallax scrolling, and viewport-triggered animations. It serves as a centralized hub for archiving enterprise-grade applications, technical articles, and professional history.
 
 <br/>
 
@@ -46,22 +46,22 @@ graph TD
 
 ## <span style="color: #FF1493;">Features</span>
 
-### Core Capabilities
+### <span style="color: #FF1493;">Core Capabilities</span>
 * **Dynamic Project Showcase:** A structured archive section systematically mapping out high-level MERN stack projects.
 * **Radix UI Integration:** Fully accessible, keyboard-friendly UI primitives integrated via custom components.
 * **Responsive Architecture:** Adaptive tracking algorithms enabling perfect scaling from ultra-wide displays to mobile devices.
 
-### Visual & UI/UX Innovations
+### <span style="color: #FF1493;">Visual & UI/UX Innovations</span>
 * **<span style="color: #FF1493;">Custom Cursor Tracking:</span>** A persistent, physics-based follower element that reacts dynamically to the user's cursor.
-* **Proximity Hover Effects:** Interactive text elements engineered to react to cursor proximity using bounding client rectangle geometry.
-* **Scroll-Triggered Parallax:** Smooth hero image displacement anchored programmatically to raw window scroll coordinates.
-* **Intersection-based Reveal:** Clean, staggered sequential fade-ins for typography as nodes intercept the active viewport.
+* **<span style="color: #FF1493;">Proximity Hover Effects:</span>** Interactive text elements engineered to react to cursor proximity using bounding client rectangle geometry.
+* **<span style="color: #FF1493;">Scroll-Triggered Parallax:</span>** Smooth hero image displacement anchored programmatically to raw window scroll coordinates.
+* **<span style="color: #FF1493;">Intersection-based Reveal:</span>** Clean, staggered sequential fade-ins for typography as nodes intercept the active viewport.
 
-### Security Features
+### <span style="color: #FF1493;">Security Features</span>
 * **Dependency Lock-in:** Strict dependency resolution maps via `pnpm-lock.yaml` mitigating supply chain interference.
 * **Client-side Defenses:** Total reliance on React's automatic XSS escaping during the rendering cycle.
 
-### Performance Features
+### <span style="color: #FF1493;">Performance Features</span>
 * **Asset Optimization:** Native `postcss` image and font compilation executed during build-time.
 * **Event Listener Delegation:** Centralized `useEffect` cleanups executing strict garbage collection for physics and window observers.
 * **Zero CSS-in-JS:** Pure CSS and native Tailwind execution utilized to eradicate runtime style injection costs.
@@ -70,20 +70,20 @@ graph TD
 
 ## <span style="color: #FF1493;">Tech Stack</span>
 
-### Frontend
+### <span style="color: #FF1493;">Frontend</span>
 * <img src="https://cdn.simpleicons.org/nextdotjs/FF1493" width="16" align="center"/> **Next.js 16** - Application Framework
 * <img src="https://cdn.simpleicons.org/react/FF1493" width="16" align="center"/> **React 19** - UI Library
 * <img src="https://cdn.simpleicons.org/tailwindcss/FF1493" width="16" align="center"/> **Tailwind CSS v4** - Utility-first Styling
 * <img src="https://cdn.simpleicons.org/radixui/FF1493" width="16" align="center"/> **Radix UI** - Headless Component Primitives
 
-### Backend
+### <span style="color: #FF1493;">Backend</span>
 * <img src="https://cdn.simpleicons.org/nodedotjs/FF1493" width="16" align="center"/> **Node.js** - Server Environment
 
-### DevOps
+### <span style="color: #FF1493;">DevOps</span>
 * <img src="https://cdn.simpleicons.org/vercel/FF1493" width="16" align="center"/> **Vercel** - Hosting and CI/CD
 * <img src="https://cdn.simpleicons.org/git/FF1493" width="16" align="center"/> **Git** - Version Control Strategy
 
-### Security
+### <span style="color: #FF1493;">Security</span>
 * <img src="https://cdn.simpleicons.org/dependabot/FF1493" width="16" align="center"/> **Dependabot** - Automated Vulnerability Patching 
 * <img src="https://cdn.simpleicons.org/eslint/FF1493" width="16" align="center"/> **ESLint** - Static Code Analysis
 
@@ -91,12 +91,12 @@ graph TD
 
 ## <span style="color: #FF1493;">Installation Guide</span>
 
-### Prerequisites
+### <span style="color: #FF1493;">Prerequisites</span>
 * Node.js v22.x or later
 * Git
 * PNPM (Recommended)
 
-### Local Environment Setup
+### <span style="color: #FF1493;">Local Environment Setup</span>
 
 ```bash
 # Clone the repository locally
@@ -116,7 +116,7 @@ pnpm run dev
 
 The application is engineered as a static-first Next.js portfolio. All architectural data rendering occurs directly via mapping functions in the core component tree.
 
-### UI Configuration Modifications
+### <span style="color: #FF1493;">UI Configuration Modifications</span>
 To alter physics limits for the interactive cursor layer, navigate to the `app/page.tsx` lifecycle methods:
 ```typescript
 // Adjust threshold bounds for proximity magnetization
@@ -164,10 +164,10 @@ If Headless CMS integration is required, Route Handlers should be deployed withi
 ## <span style="color: #FF1493;">Security Considerations</span>
 
 Implementation protocols mandated for this continuous delivery ecosystem include:
-* **Content Security Policy (CSP):** Header propagation blocking unverified schema executions via `next.config.mjs`.
-* **Sanitized DOM Traversal:** TypeScript interfaces verifying that string interpolations are shielded before layout paints.
-* **Secrets Compartmentalization:** Encrypting CI keys and isolating `.env.local` strictly from git indexes.
-* **Component Abstraction Safety:** Ensuring `Radix UI` handlers prevent common prototype pollution vectors during DOM mutations.
+* **<span style="color: #FF1493;">Content Security Policy (CSP):</span>** Header propagation blocking unverified schema executions via `next.config.mjs`.
+* **<span style="color: #FF1493;">Sanitized DOM Traversal:</span>** TypeScript interfaces verifying that string interpolations are shielded before layout paints.
+* **<span style="color: #FF1493;">Secrets Compartmentalization:</span>** Encrypting CI keys and isolating `.env.local` strictly from git indexes.
+* **<span style="color: #FF1493;">Component Abstraction Safety:</span>** Ensuring Radix UI handlers prevent common prototype pollution vectors during DOM mutations.
 
 <br/>
 
@@ -196,5 +196,5 @@ This architecture is released under the standard **MIT License**. Operations, de
 
 <div align="center">
   <hr>
-  <i>Engineered for scale. Compiled for performance.</i>
+  <i>Engineered for scale. Compiled for performance. Styled in <span style="color: #FF1493;"><b>Pink</b></span>.</i>
 </div>
