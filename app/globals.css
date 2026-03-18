@@ -389,7 +389,10 @@ nav {
 
 .marquee-inner {
   display: inline-block;
-  animation: 20s linear 0s infinite normal none running marquee;
+  animation: marquee 20s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 @keyframes marquee {
@@ -1120,7 +1123,12 @@ html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""
   }
 
   .scrolling-marquee {
-    padding: 50px 0;
+    padding: 30px 0;
+  }
+  
+  .tech-stack {
+    font-size: clamp(2rem, 10vw, 4rem) !important;
+    line-height: 1.2 !important;
   }
 
   /* About section responsive */
