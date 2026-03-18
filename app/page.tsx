@@ -144,6 +144,9 @@ export default function Home() {
             <span>C</span>
             <span>K</span>
           </div>
+          <div className="hero-horizontal-text hero-text-bottom interactive-text">
+            <span>D</span><span>E</span><span>V</span><span>E</span><span>L</span><span>O</span><span>P</span><span>E</span><span>R</span>
+          </div>
         </section>
 
         {/* INTRO */}
