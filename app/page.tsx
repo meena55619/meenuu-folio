@@ -126,7 +126,7 @@ export default function Home() {
         {/* HERO SECTION */}
         <section id="hero">
           <img
-            src="/meena-images-2.jpeg"
+            src="/meena.jpeg"
             alt="MERN Stack Development"
             className="hero-img"
             id="hero-img"
