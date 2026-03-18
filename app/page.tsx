@@ -377,7 +377,7 @@ export default function Home() {
         <footer id="contact">
           <div className="container">
             <div className="footer-cta">
-              <a href="mailto:meena.dev@gmail.com">LET&apos;S — BUILD</a>
+              <a href="mailto:meena55619@gmail.com">LET&apos;S — BUILD</a>
             </div>
             <div className="divider"></div>
             <div
@@ -392,9 +392,9 @@ export default function Home() {
             >
               <div>© 2026 MEENA DEV</div>
               <div style={{ display: "flex", gap: "30px" }}>
-                <span className="footer-link">GITHUB</span>
-                <span className="footer-link">LINKEDIN</span>
-                <span className="footer-link">TWITTER</span>
+                <a href="https://github.com/meena55619" target="_blank" rel="noopener noreferrer" className="footer-link">GITHUB</a>
+                <a href="https://www.linkedin.com/in/meena-v-d-60b434377" target="_blank" rel="noopener noreferrer" className="footer-link">LINKEDIN</a>
+                <a href="mailto:meena55619@gmail.com" className="footer-link">GMAIL</a>
               </div>
               <div>AVAILABLE FOR FREELANCE WORK</div>
             </div>
