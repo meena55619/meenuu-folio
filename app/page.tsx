@@ -259,8 +259,8 @@ export default function Home() {
             </div>
             <div className="project-media">
               <img
-                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1000"
-                alt="E-Commerce Platform"
+                src="/Shopify-project.webp"
+                alt="Shopify E-Commerce Platform"
                 className="project-image"
               />
               <div className="floating-label huge-type outline-text" style={{ fontSize: "8rem" }}>
@@ -291,8 +291,8 @@ export default function Home() {
             </div>
             <div className="project-media">
               <img
-                src="https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&q=80&w=1000"
-                alt="Chat Application"
+                src="/chatly-project.webp"
+                alt="Chatly Real-Time App"
                 className="project-image"
               />
               <div
@@ -326,8 +326,8 @@ export default function Home() {
             </div>
             <div className="project-media">
               <img
-                src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=1000"
-                alt="Task Management App"
+                src="/taskflow.webp"
+                alt="Taskflow Productivity Tool"
                 className="project-image"
               />
               <div className="floating-label huge-type outline-text" style={{ fontSize: "8rem" }}>
@@ -358,8 +358,8 @@ export default function Home() {
             </div>
             <div className="project-media">
               <img
-                src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=1000"
-                alt="Developer Blog Platform"
+                src="/devbblog.webp"
+                alt="DevBlog Content Platform"
                 className="project-image"
               />
               <div
