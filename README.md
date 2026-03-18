@@ -1,7 +1,7 @@
 <div align="center">
 
-# <h1 style="color: #FF1493;"><b>MEENA DEV PORTFOLIO</b></h1>
-<b style="color: #FF1493;">A High-Performance, Interactive Developer Portfolio Engineered with Next.js</b>
+<h1 align="center" style="color: #FF1493;"><b>MEENA DEV PORTFOLIO</b></h1>
+<p align="center" style="color: #FF1493;"><b>A High-Performance, Interactive Developer Portfolio Engineered with Next.js</b></p>
 
 [![Next.js](https://img.shields.io/badge/Next.js-FF1493?style=for-the-badge&logo=next.js&logoColor=white)](#)
 [![React](https://img.shields.io/badge/React-FF1493?style=for-the-badge&logo=react&logoColor=white)](#)
