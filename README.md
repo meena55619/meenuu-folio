@@ -100,8 +100,8 @@ graph TD
 
 ```bash
 # Clone the repository locally
-git clone https://github.com/BYTEGUARDIAN14/meenuu-portfolio.git
-cd meenuu-portfolio
+git clone https://github.com/meena55619/meenuu-folio.git
+cd meenuu-folio
 
 # Install application dependencies
 pnpm install
